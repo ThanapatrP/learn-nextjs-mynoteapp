@@ -13,7 +13,7 @@ export default function NewNoteClientWrapper() {
       {modalOn ? (
         <>
           <ModalDimmer />
-          <NewNoteModal />
+          <NewNoteModal modalOnDispatcher={setModalOn} />
         </>
       ) : (
         <></>
