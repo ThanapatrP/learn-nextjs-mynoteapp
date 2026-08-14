@@ -35,7 +35,7 @@ export default function NoteCard({ id, content }: NoteCardProps) {
           <Trash className="absolute top-2 right-2 text-red-500" />
         </button>
       </div>
-      <p>{content}</p>
+      <pre>{content}</pre>
     </div>
   );
 }
